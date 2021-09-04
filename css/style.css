@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* container */
+
+.container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header .logo {
+    display: flex;
+}
+
+header .logo img {
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+header .logo .border-right {
+    width: 1px;
+    height: 80px;
+    background-color: #585858;
+    margin-top: 20px;
+}
+
+/* --------------------- */
+
+header .building {
+    margin-left: -130px;
+    padding-top: 10px;
+}
+
+header .building .build {
+    color: #fff;
+}
+
+header .building .working-for {
+    color: #fff;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+/* ------------------------ */
+
+header .address .city-street {
+    color: #fff;
+    padding-bottom: 3px;
+}
+
+header .address .e-mail {
+    color: #E6D0A0;
+    display: inline;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed #E6D0A0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ------------------------ */
+
+header .call-center .ball-online {
+    width: 10px;
+    height: 10px;
+    background-color: #23ff86;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+header .call-center .we-online {
+    color: #23ff86;
+    font-weight: 600;
+    display: inline;
+}
+
+header .call-center .phone-number {
+    color: #fff;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+header .call-center .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .call-center .icons .insta {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+header .call-center .icons .insta .fa-instagram {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ------------------------- */
+
+header .call-center .icons .vk {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+header .call-center .icons .vk .fa-vk {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ------------------------- */
+
+header .call-center .icons .fb {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+header .call-center .icons .fb .fa-facebook-f {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ------------------------- */
+
+header .call-center .icons .ok {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+header .call-center .icons .ok .fa-odnoklassniki {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ------------------------- */
+
+header .call-center .icons .player {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+header .call-center .icons .player .fa-play {
+    color: #fff;
+    cursor: pointer;
+}
+
+header .phone-designer button {
+    width: 270px;
+    height: 70px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 0 5px 7px rgb(168, 168, 168);
+    cursor: pointer;
+}
+
+header .phone-designer button:hover {
+    background-color: #e6d6b6;
+}
+
+header .phone-designer .five-minutes {
+    color: #E6D0A0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* -------------------------------------- */
+
+.content .list-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: #252525;
+    padding: 20px 0 20px 60px;
+    box-shadow: 0 0 0 5px rgba(37, 37, 37, 0.7);
+    border-radius: 20px;
+    width: 97%;
+}
+
+.content .list-items a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    border-right: 1px solid #505050;
+    padding-right: 75px;
+}
+
+.content .list-items a:hover {
+    color: #e6d6b6;
+}
+
+.content .list-items .contact {
+    border-right: none;
+}
+
+/* --------------------------------------------------- */
+
+.content .left-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.content .left-content .interior-design {
+    font-size: 4em;
+    color: #fff;
+}
+
+.content .left-content .all-services {
+    font-size: 2.5em;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.content .left-content .line-info {
+    display: flex;
+}
+
+.content .left-content .line {
+    width: 110px;
+    height: 2px;
+    background-color: #e6d6b6;
+    margin-top: 6px;
+}
+
+.content .left-content .services-info {
+    color: #e6d6b6;
+    margin-left: 20px;
+}
+
+/* forms */
+
+.content .forms {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 65, 65);
+    width: 450px;
+    height: 600px;
+    padding: 15px;
+    float: right;
+    margin-top: -300px;
+    margin-right: 50px;
+    border-radius: 18px;
+}
+
+.content .forms .form {
+    padding: 30px;
+    border: 1px solid rgb(129, 116, 98);
+    border-radius: 18px;
+    height: 100%;
+}
+
+.content .forms .form .counter-prices {
+    font-size: 24px;
+    color: #E6D0A0;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.content .forms .form .info-counter-prices {
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+/* ---------------- */
+
+.content .forms .form .file {
+    display: flex;
+}
+
+.content .forms .form .file .fa-paperclip {
+    color: #E6D0A0;
+    margin-bottom: 20px;
+    padding-right: 15px;
+}
+
+.content .forms .form .file .download-file {
+    color: #E6D0A0;
+    display: inline;
+    margin-bottom: 15px;
+    border-bottom: 2px dashed #E6D0A0;
+    font-weight: 600;
+}
+
+/* -------------- */
+
+.content .forms .form .input-user {
+    display: flex;
+    padding: 30px 40px;
+    border-radius: 8px;
+    background-color: #616161;
+    margin-top: 20px;
+}
+
+.content .forms .form .input-user .fa-user {
+    color: #fff;
+}
+
+.content .forms .form .input-user .user-names {
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* ---------------------- */
+
+.content .forms .form .phone-number {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 8px;
+    background-color: #616161;
+    margin-top: 15px;
+}
+
+.content .forms .form .phone-number .flag {
+    width: 50px;
+    height: 10px;
+    background-color: #404897;
+    box-shadow: 0 10px 0 0 #FF4A55, 0 -10px 0 0 #F5F3F8;
+}
+
+.content .forms .form .phone-number .number {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.content .forms .form .get-approximate-calculation {
+    padding: 30px 40px;
+    border-radius: 8px;
+    background-color: #F6DFAE;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* footer */
+
+.content footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin-top: 80px;
+}
+
+.content footer .nine-years .nine {
+    color: #e6d6b6;
+    font-size: 4em;
+}
+
+.content footer .nine-years .market-moskow {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* --------------------------- */
+
+.content footer .design-projects {
+    margin-left: 12px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content footer .design-projects .five-plus {
+    color: #e6d6b6;
+    font-size: 4em;
+}
+
+.content footer .design-projects .projects {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* --------------------------- */
+
+.content footer .key-projects {
+    margin-left: 12px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content footer .key-projects .thirteen-plus {
+    color: #e6d6b6;
+    font-size: 4em;
+}
+
+.content footer .key-projects .key {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* --------------------------- */
+
+.content footer .client {
+    margin-left: 12px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content footer .client .fourteen-plus {
+    color: #e6d6b6;
+    font-size: 4em;
+}
+
+.content footer .client .happy-clients {
+    font-size: 1.2em;
+    color: #fff;
+}
